@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     HOST: str = Field(default="127.0.0.1")
     PORT: int = Field(default=8000)
     ALLOWED_ORIGINS: str = Field(
-        default="http://localhost:5173,http://127.0.0.1:5173"
+        default="http://localhost:5173,http://127.0.0.1:5173,https://internship-iota-three.vercel.app/"
     )
     ENABLE_DOCS: bool = Field(default=True)
     SECURITY_HEADERS: bool = Field(default=True)

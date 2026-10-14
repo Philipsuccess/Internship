@@ -9,7 +9,7 @@ from app.core.config import settings
 from app.core.logging_config import setup_logging
 from app.api.chat import router as chat_router
 
-# Initialize redacted logging on application startup
+# Initialize redacted logging on application startuWp
 setup_logging()
 logger = logging.getLogger(__name__)
 
